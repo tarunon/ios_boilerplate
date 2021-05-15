@@ -1,3 +1,3 @@
-struct App {
+struct MyLibrary {
     var text = "Hello, World!"
 }
