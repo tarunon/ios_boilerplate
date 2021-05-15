@@ -1,0 +1,17 @@
+name: Test
+
+on: [push]
+
+jobs:
+  ci:
+    runs-on: macOS-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Init
+      run: make init
+    # note: enable lint after github support xcode12.5
+    # - name: Lint
+    #   run: make lint
+    - name: Test
+      run: make test

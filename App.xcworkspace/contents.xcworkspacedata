@@ -13,4 +13,7 @@
    <FileRef
       location = "group:App/Stg.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:.github/">
+   </FileRef>
 </Workspace>
