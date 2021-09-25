@@ -2,16 +2,24 @@ name: Test
 
 on: [push]
 
+env:
+  DEVELOPER_DIR: /Applications/Xcode_13.0.app
+
 jobs:
   ci:
-    runs-on: macOS-latest
+    runs-on: macOS-11
     steps:
     - name: Checkout
       uses: actions/checkout@v2
+    - name: Cache BuildTools
+      id: cache-buildtools
+      uses: actions/cache@v2
+      with:
+        path: ./BuildTools/.build
+        key: ${{ runner.os }}-buildtools
     - name: Init
       run: make init
-    # note: enable lint after github support xcode12.5
-    # - name: Lint
-    #   run: make lint
+    - name: Lint
+      run: make lint
     - name: Test
       run: make test
