@@ -1,8 +1,9 @@
-    import XCTest
-    @testable import App
+import XCTest
 
-    final class AppTests: XCTestCase {
-        func testExample() {
-            print("hello world")
-        }
-    }
+@testable import App
+
+final class AppTests: XCTestCase {
+  func testExample() {
+    print("hello world")
+  }
+}
