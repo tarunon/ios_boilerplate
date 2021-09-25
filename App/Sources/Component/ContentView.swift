@@ -7,8 +7,10 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
+public struct ContentView: View {
+    public init() {}
+  
+    public var body: some View {
         Text("Hello, world!")
             .padding()
     }
