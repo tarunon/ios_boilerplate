@@ -5,6 +5,7 @@
 //  Created by tarunon on 2021/05/15.
 //
 
+import Bundles
 import SwiftUI
 
 public struct ContentView: View {
@@ -13,6 +14,7 @@ public struct ContentView: View {
   public var body: some View {
     Text("Hello, world!")
       .padding()
+      .background(Color.backgroundColor)
   }
 }
 
