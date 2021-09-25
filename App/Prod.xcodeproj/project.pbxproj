@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D21F96A1265016C9003FD064 /* App in Frameworks */ = {isa = PBXBuildFile; productRef = D21F96A0265016C9003FD064 /* App */; };
 		D23F57BA265014890008532B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23F57B9265014890008532B /* AppDelegate.swift */; };
 		D23F57C02650148A0008532B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23F57BF2650148A0008532B /* Assets.xcassets */; };
 		D23F57C62650148A0008532B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23F57C42650148A0008532B /* LaunchScreen.storyboard */; };
+		D26EA95026F71E6300AA8ED3 /* App in Frameworks */ = {isa = PBXBuildFile; productRef = D26EA94F26F71E6300AA8ED3 /* App */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +18,7 @@
 		D23F57B9265014890008532B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D23F57BF2650148A0008532B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D23F57C52650148A0008532B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D23F57C72650148A0008532B /* Info_Prod.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info_Prod.plist; sourceTree = "<group>"; };
+		D23F57C72650148A0008532B /* Info_Stg.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info_Stg.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,7 +26,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D21F96A1265016C9003FD064 /* App in Frameworks */,
+				D26EA95026F71E6300AA8ED3 /* App in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +38,7 @@
 			children = (
 				D23F57B8265014890008532B /* App */,
 				D23F57B7265014890008532B /* Products */,
+				D26EA94E26F71E6300AA8ED3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,9 +56,16 @@
 				D23F57B9265014890008532B /* AppDelegate.swift */,
 				D23F57BF2650148A0008532B /* Assets.xcassets */,
 				D23F57C42650148A0008532B /* LaunchScreen.storyboard */,
-				D23F57C72650148A0008532B /* Info_Prod.plist */,
+				D23F57C72650148A0008532B /* Info_Stg.plist */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		D26EA94E26F71E6300AA8ED3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,7 +85,7 @@
 			);
 			name = Prod;
 			packageProductDependencies = (
-				D21F96A0265016C9003FD064 /* App */,
+				D26EA94F26F71E6300AA8ED3 /* App */,
 			);
 			productName = App;
 			productReference = D23F57B6265014890008532B /* Prod.app */;
@@ -107,7 +115,7 @@
 			);
 			mainGroup = D23F57AD265014890008532B;
 			packageReferences = (
-				D21F969F265016C9003FD064 /* XCRemoteSwiftPackageReference "." */,
+				D23C94EB2650189700998632 /* XCRemoteSwiftPackageReference "" */,
 			);
 			productRefGroup = D23F57B7265014890008532B /* Products */;
 			projectDirPath = "";
@@ -275,6 +283,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = App/Info_Prod.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -294,6 +303,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = App/Info_Prod.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -331,16 +341,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D21F969F265016C9003FD064 /* XCRemoteSwiftPackageReference "." */ = {
+		D23C94EB2650189700998632 /* XCRemoteSwiftPackageReference "" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = ../;
+			repositoryURL = ./;
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D21F96A0265016C9003FD064 /* App */ = {
+		D26EA94F26F71E6300AA8ED3 /* App */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D21F969F265016C9003FD064 /* XCRemoteSwiftPackageReference "." */;
 			productName = App;
 		};
 /* End XCSwiftPackageProductDependency section */

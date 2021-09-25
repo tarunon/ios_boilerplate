@@ -1,19 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <FileRef
-      location = "group:">
-   </FileRef>
-   <FileRef
-      location = "group:BuildTools/">
-   </FileRef>
-   <FileRef
-      location = "group:App/Prod.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:App/Stg.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:.github/">
-   </FileRef>
+   <Group
+      location = "container:"
+      name = "Packages">
+      <FileRef
+         location = "group:App">
+      </FileRef>
+      <FileRef
+         location = "group:BuildTools/">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Products">
+      <FileRef
+         location = "group:App/Prod.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:App/Stg.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Other">
+      <FileRef
+         location = "group:Makefile">
+      </FileRef>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+      <FileRef
+         location = "group:.github/">
+      </FileRef>
+   </Group>
 </Workspace>
