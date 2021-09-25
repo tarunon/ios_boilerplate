@@ -10,6 +10,7 @@
 		D23F57BA265014890008532B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23F57B9265014890008532B /* AppDelegate.swift */; };
 		D23F57C02650148A0008532B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23F57BF2650148A0008532B /* Assets.xcassets */; };
 		D23F57C62650148A0008532B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23F57C42650148A0008532B /* LaunchScreen.storyboard */; };
+		D24FA24426FF8834009352CB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D24FA24326FF8834009352CB /* Settings.bundle */; };
 		D26EA95026F71E6300AA8ED3 /* App in Frameworks */ = {isa = PBXBuildFile; productRef = D26EA94F26F71E6300AA8ED3 /* App */; };
 /* End PBXBuildFile section */
 
@@ -19,6 +20,7 @@
 		D23F57BF2650148A0008532B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D23F57C52650148A0008532B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D23F57C72650148A0008532B /* Info_Stg.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info_Stg.plist; sourceTree = "<group>"; };
+		D24FA24326FF8834009352CB /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				D23F57BF2650148A0008532B /* Assets.xcassets */,
 				D23F57C42650148A0008532B /* LaunchScreen.storyboard */,
 				D23F57C72650148A0008532B /* Info_Stg.plist */,
+				D24FA24326FF8834009352CB /* Settings.bundle */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D23F57C62650148A0008532B /* LaunchScreen.storyboard in Resources */,
+				D24FA24426FF8834009352CB /* Settings.bundle in Resources */,
 				D23F57C02650148A0008532B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
