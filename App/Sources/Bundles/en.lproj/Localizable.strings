@@ -1,0 +1,8 @@
+/*
+  Localizable.strings
+ Bundles
+
+  Created by tarunon on 2021/09/23.
+  
+*/
+"message.hello_world" = "Hello, world!";

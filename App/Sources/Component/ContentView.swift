@@ -12,7 +12,7 @@ public struct ContentView: View {
   public init() {}
 
   public var body: some View {
-    Text("Hello, world!")
+    Text.helloWorld
       .padding()
       .background(Color.backgroundColor)
   }
