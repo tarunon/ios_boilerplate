@@ -18,8 +18,12 @@ public struct ContentView: View {
   }
 }
 
-struct ContentView_Previews: PreviewProvider {
-  static var previews: some View {
-    ContentView()
+#if DEBUG
+
+  public struct ContentView_Previews: PreviewProvider {
+    public static var previews: some View {
+      ContentView()
+    }
   }
-}
+
+#endif

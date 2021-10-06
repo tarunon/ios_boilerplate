@@ -5,10 +5,10 @@
 //  Created by tarunon on 2021/05/15.
 //
 
-import Component
+import Components
 import SwiftUI
 
-@main @MainActor
+@main
 struct MainApp: App {
   var body: some Scene {
     WindowGroup {

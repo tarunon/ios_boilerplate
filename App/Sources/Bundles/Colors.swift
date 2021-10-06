@@ -8,5 +8,5 @@
 import SwiftUI
 
 extension Color {
-  public static let backgroundColor = Color(uiColor: UIColor(named: "BackgroundColor", in: .module, compatibleWith: .current)!)
+  public static let backgroundColor = Color("BackgroundColor", bundle: Bundles.module)
 }
