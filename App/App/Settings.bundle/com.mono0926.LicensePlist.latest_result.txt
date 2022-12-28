@@ -1,23 +1,51 @@
-name: APIKit, nameSpecified: APIKit, owner: ishkawa, version: 5.2.0
+name: APIKit, nameSpecified: APIKit, owner: ishkawa, version: 5.4.0, source: https://github.com/ishkawa/APIKit
 
-name: HeliumLogger, nameSpecified: HeliumLogger, owner: Kitura, version: 1.9.200
+name: HeliumLogger, nameSpecified: HeliumLogger, owner: Kitura, version: 2.0.0, source: https://github.com/Kitura/HeliumLogger
 
-name: LicensePlist, nameSpecified: LicensePlist, owner: mono0926, version: 3.14.4
+name: LicensePlist, nameSpecified: LicensePlist, owner: mono0926, version: 3.23.4, source: https://github.com/mono0926/LicensePlist
 
-name: LoggerAPI, nameSpecified: LoggerAPI, owner: Kitura, version: 1.9.200
+name: LoggerAPI, nameSpecified: LoggerAPI, owner: Kitura, version: 2.0.0, source: https://github.com/Kitura/LoggerAPI
 
-name: swift-argument-parser, nameSpecified: swift-argument-parser, owner: apple, version: 1.0.1
+name: swift-argument-parser, nameSpecified: swift-argument-parser, owner: apple, version: 1.1.4, source: https://github.com/apple/swift-argument-parser
 
-name: swift-format, nameSpecified: swift-format, owner: apple, version: 0.50500.0
+name: swift-format, nameSpecified: swift-format, owner: apple, version: 0.50700.1, source: https://github.com/apple/swift-format
 
-name: swift-html-entities, nameSpecified: HTMLEntities, owner: Kitura, version: 3.0.200
+name: swift-html-entities, nameSpecified: HTMLEntities, owner: Kitura, version: 4.0.1, source: https://github.com/Kitura/swift-html-entities
 
-name: swift-log, nameSpecified: swift-log, owner: apple, version: 1.4.2
+name: swift-log, nameSpecified: swift-log, owner: apple, version: 1.4.2, source: https://github.com/apple/swift-log
 
-name: swift-syntax, nameSpecified: SwiftSyntax, owner: apple, version: 0.50500.0
+name: swift-syntax, nameSpecified: SwiftSyntax, owner: apple, version: 0.50700.1, source: https://github.com/apple/swift-syntax
 
-name: YamlSwift, nameSpecified: Yaml, owner: behrang, version: 3.4.4
+name: swift-system, nameSpecified: swift-system, owner: apple, version: 1.1.1, source: https://github.com/apple/swift-system
+
+name: swift-tools-support-core, nameSpecified: swift-tools-support-core, owner: apple, version: 0.2.7, source: https://github.com/apple/swift-tools-support-core
+
+name: YamlSwift, nameSpecified: Yaml, owner: behrang, version: 3.4.4, source: https://github.com/behrang/YamlSwift
+
+name: APIKit, nameSpecified: APIKit, owner: ishkawa, version: 5.4.0, source: https://github.com/ishkawa/APIKit
+
+name: HeliumLogger, nameSpecified: HeliumLogger, owner: Kitura, version: 2.0.0, source: https://github.com/Kitura/HeliumLogger
+
+name: LicensePlist, nameSpecified: LicensePlist, owner: mono0926, version: 3.23.4, source: https://github.com/mono0926/LicensePlist
+
+name: LoggerAPI, nameSpecified: LoggerAPI, owner: Kitura, version: 2.0.0, source: https://github.com/Kitura/LoggerAPI
+
+name: swift-argument-parser, nameSpecified: swift-argument-parser, owner: apple, version: 1.1.4, source: https://github.com/apple/swift-argument-parser
+
+name: swift-format, nameSpecified: swift-format, owner: apple, version: 0.50700.1, source: https://github.com/apple/swift-format
+
+name: swift-html-entities, nameSpecified: HTMLEntities, owner: Kitura, version: 4.0.1, source: https://github.com/Kitura/swift-html-entities
+
+name: swift-log, nameSpecified: swift-log, owner: apple, version: 1.4.2, source: https://github.com/apple/swift-log
+
+name: swift-syntax, nameSpecified: SwiftSyntax, owner: apple, version: 0.50700.1, source: https://github.com/apple/swift-syntax
+
+name: swift-system, nameSpecified: swift-system, owner: apple, version: 1.1.1, source: https://github.com/apple/swift-system
+
+name: swift-tools-support-core, nameSpecified: swift-tools-support-core, owner: apple, version: 0.2.7, source: https://github.com/apple/swift-tools-support-core
+
+name: YamlSwift, nameSpecified: Yaml, owner: behrang, version: 3.4.4, source: https://github.com/behrang/YamlSwift
 
 add-version-numbers: false
 
-LicensePlist Version: 3.14.4
+LicensePlist Version: 3.23.4
