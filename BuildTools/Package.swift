@@ -9,8 +9,8 @@ let package = Package(
     .macOS(.v10_11)
   ],
   dependencies: [
-    .package(url: "https://github.com/apple/swift-format", from: "0.50400.0"),
-    .package(url: "https://github.com/mono0926/LicensePlist", from: "3.14.4"),
+    .package(url: "https://github.com/apple/swift-format", from: "0.50700.1"),
+    .package(url: "https://github.com/mono0926/LicensePlist", from: "3.23.4"),
   ],
   targets: [
     .target(

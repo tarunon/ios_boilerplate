@@ -184,6 +184,8 @@
 
    END OF TERMS AND CONDITIONS
 </string>
+			<key>License</key>
+			<string>Apache-2.0</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>
