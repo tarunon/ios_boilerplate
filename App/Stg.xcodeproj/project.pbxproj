@@ -10,6 +10,7 @@
 		D25530122700D97F00C1C0DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25530102700D97F00C1C0DE /* LaunchScreen.storyboard */; };
 		D263E2A72700CC5B00E6D7A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D225316E2700972F0096BF5C /* Assets.xcassets */; };
 		D263E2AC2700CD0600E6D7A9 /* App in Frameworks */ = {isa = PBXBuildFile; productRef = D263E2AB2700CD0600E6D7A9 /* App */; };
+		D2DDFB652964805300C4E942 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D2DDFB642964805300C4E942 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +18,8 @@
 		D225316E2700972F0096BF5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D25530112700D97F00C1C0DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D25530132700D98400C1C0DE /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ja; path = ja.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D29C5BC32964773600CCCD38 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = ../../../LibingR2/App/App/Settings.bundle; sourceTree = "<group>"; };
+		D2DDFB642964805300C4E942 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = App/Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +37,7 @@
 		D225315E2700972D0096BF5C = {
 			isa = PBXGroup;
 			children = (
+				D2DDFB642964805300C4E942 /* Settings.bundle */,
 				D22531692700972D0096BF5C /* App */,
 				D22531682700972D0096BF5C /* Products */,
 				D284391B270097CA00B02606 /* Frameworks */,
@@ -51,6 +55,7 @@
 		D22531692700972D0096BF5C /* App */ = {
 			isa = PBXGroup;
 			children = (
+				D29C5BC32964773600CCCD38 /* Settings.bundle */,
 				D225316E2700972F0096BF5C /* Assets.xcassets */,
 				D25530102700D97F00C1C0DE /* LaunchScreen.storyboard */,
 			);
@@ -127,6 +132,7 @@
 			files = (
 				D263E2A72700CC5B00E6D7A9 /* Assets.xcassets in Resources */,
 				D25530122700D97F00C1C0DE /* LaunchScreen.storyboard in Resources */,
+				D2DDFB652964805300C4E942 /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +287,7 @@
 				DEVELOPMENT_TEAM = U376YN5H26;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = App;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -309,6 +316,7 @@
 				DEVELOPMENT_TEAM = U376YN5H26;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = App;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
