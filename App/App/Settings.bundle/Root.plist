@@ -9,52 +9,26 @@
 		<dict>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
-			<key>Title</key>
-			<string>Group</string>
+			<key>FooterText</key>
+			<string>Copyright © 2023 __DEVELOPER__</string>
 		</dict>
 		<dict>
 			<key>Type</key>
-			<string>PSTextFieldSpecifier</string>
+			<string>PSChildPaneSpecifier</string>
 			<key>Title</key>
-			<string>Name</string>
-			<key>Key</key>
-			<string>name_preference</string>
-			<key>DefaultValue</key>
-			<string></string>
-			<key>IsSecure</key>
-			<false/>
-			<key>KeyboardType</key>
-			<string>Alphabet</string>
-			<key>AutocapitalizationType</key>
-			<string>None</string>
-			<key>AutocorrectionType</key>
-			<string>No</string>
+			<string>Licenses</string>
+			<key>File</key>
+			<string>com.mono0926.LicensePlist</string>
 		</dict>
 		<dict>
 			<key>Type</key>
-			<string>PSToggleSwitchSpecifier</string>
+			<string>PSTitleValueSpecifier</string>
+			<key>DefaultValue</key>
+			<string>1.0.0</string>
 			<key>Title</key>
-			<string>Enabled</string>
+			<string>Version</string>
 			<key>Key</key>
-			<string>enabled_preference</string>
-			<key>DefaultValue</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSSliderSpecifier</string>
-			<key>Key</key>
-			<string>slider_preference</string>
-			<key>DefaultValue</key>
-			<real>0.5</real>
-			<key>MinimumValue</key>
-			<integer>0</integer>
-			<key>MaximumValue</key>
-			<integer>1</integer>
-			<key>MinimumValueImage</key>
-			<string></string>
-			<key>MaximumValueImage</key>
-			<string></string>
+			<string>sbVersion</string>
 		</dict>
 	</array>
 </dict>
