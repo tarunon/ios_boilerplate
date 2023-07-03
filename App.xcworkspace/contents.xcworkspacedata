@@ -7,9 +7,6 @@
       <FileRef
          location = "group:App">
       </FileRef>
-      <FileRef
-         location = "group:BuildTools/">
-      </FileRef>
    </Group>
    <Group
       location = "container:"
