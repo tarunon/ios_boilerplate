@@ -1,4 +1,4 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.8
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -7,7 +7,7 @@ let package = Package(
   name: "App",
   defaultLocalization: "en",
   platforms: [
-    .iOS(.v15)
+    .iOS(.v16)
   ],
   products: [
     .library(
@@ -22,7 +22,8 @@ let package = Package(
     ),
   ],
   dependencies: [
-    // Dependencies declare other packages that this package depends on.
+    .package(url: "https://github.com/apple/swift-format", from: "508.0.1"),
+    .package(url: "https://github.com/mono0926/LicensePlist", from: "3.24.10"),
   ],
   targets: [
     // Targets are the basic building blocks of a package. A target can define a module or a test suite.
